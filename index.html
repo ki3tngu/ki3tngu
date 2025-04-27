@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinro - Cơ sở dữ liệu & Cài đặt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 id="mainTitle">Jinro Database</h1>
+            <p>Cài đặt server Ngọc Rồng của riêng bạn.</p>
+            <div class="hero-buttons">
+                <button class="btn primary" id="scrollToSearch">Công cụ </button>
+                <button class="btn secondary" id="installBtn">Cài đặt Jinro</button>
+                <!-- <button class="btn secondary" id="howTo">HDSD và Lưu ý</button> --> <!-- Optional: Add functionality later if needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <!-- Feature Card 1: Database -->
+        <div class="feature-card">
+            <div class="feature-icon">
+                <svg height="50px" width="50px" version="1.1" id="Capa_1_db" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.064 512.064" style="enable-background:new 0 0 512.064 512.064;" xml:space="preserve">
+                     <path style="fill:#87CED9;" d="M39.721,0h353.103c19.5,0,35.31,15.81,35.31,35.31v282.483c0,19.5-15.81,35.31-35.31,35.31H39.721 c-19.5,0-35.31-15.81-35.31-35.31V35.31C4.411,15.81,20.212,0,39.721,0z" /> <g> <rect x="30.893" y="26.483" style="fill:#4398D1;" width="17.655" height="17.655" /> <rect x="66.204" y="26.483" style="fill:#4398D1;" width="17.655" height="17.655" /> <rect x="101.514" y="26.483" style="fill:#4398D1;" width="17.655" height="17.655" /> <path style="fill:#4398D1;" d="M92.687,70.621H445.79c19.5,0,35.31,15.81,35.31,35.31v282.483c0,19.5-15.81,35.31-35.31,35.31  H92.687c-19.5,0-35.31-15.81-35.31-35.31V105.931C57.376,86.431,73.178,70.621,92.687,70.621z" /> </g> <path style="fill:#3F8FC4;" d="M445.79,70.621h-41.94c-63.267,201.437-184.417,303.245-268.288,353.103H445.79 c19.5,0,35.31-15.81,35.31-35.31V105.931C481.1,86.431,465.29,70.621,445.79,70.621z" /> <g> <rect x="83.859" y="97.103" style="fill:#87CED9;" width="17.655" height="17.655" /> <rect x="119.169" y="97.103" style="fill:#87CED9;" width="17.655" height="17.655" /> <rect x="154.48" y="97.103" style="fill:#87CED9;" width="17.655" height="17.655" /> </g> <g> <rect x="83.859" y="353.103" style="fill:#3685BA;" width="370.759" height="17.655" /> <rect x="101.514" y="282.483" style="fill:#3685BA;" width="17.655" height="52.966" /> <rect x="136.824" y="229.517" style="fill:#3685BA;" width="17.655" height="105.931" /> <rect x="172.135" y="256" style="fill:#3685BA;" width="17.655" height="79.448" /> <rect x="207.445" y="194.207" style="fill:#3685BA;" width="17.655" height="141.241" /> <rect x="242.756" y="176.552" style="fill:#3685BA;" width="17.655" height="158.897" /> <rect x="278.066" y="185.379" style="fill:#3685BA;" width="17.655" height="61.793" /> <rect x="313.376" y="150.069" style="fill:#3685BA;" width="17.655" height="97.103" /> <rect x="348.687" y="132.414" style="fill:#3685BA;" width="17.655" height="114.759" /> <rect x="383.997" y="167.724" style="fill:#3685BA;" width="17.655" height="167.724" /> <rect x="419.307" y="203.034" style="fill:#3685BA;" width="17.655" height="132.414" /> </g> <rect x="422.717" y="370.95" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 1068.8613 448.9745)" style="fill:#FDB62F;" width="37.455" height="149.812" /> <rect x="387.342" y="385.546" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 983.482 413.6566)" style="fill:#FA962A;" width="37.455" height="49.937" /> <circle style="fill:#FDB62F;" cx="322.204" cy="335.448" r="114.759" /> <circle style="fill:#87CED9;" cx="322.204" cy="335.448" r="79.448" /> <g> <path style="fill:#4398D1;" d="M244.795,353.103c1.395,6.118,3.513,12.041,6.321,17.655h142.177  c2.807-5.614,4.926-11.538,6.321-17.655H244.795z" /> <path style="fill:#4398D1;" d="M331.031,335.448v-78.927c-5.862-0.697-11.794-0.697-17.655,0v78.927H331.031z" /> <path style="fill:#4398D1;" d="M295.721,335.448v-74.831c-6.232,2.18-12.156,5.129-17.655,8.783v66.048H295.721z" /> <path style="fill:#4398D1;" d="M366.342,335.448V269.4c-5.5-3.655-11.423-6.603-17.655-8.783v74.831H366.342z" /> <path style="fill:#4398D1;" d="M260.411,285.564c-11.441,14.106-17.673,31.726-17.655,49.885h17.655V285.564z" /> <path style="fill:#4398D1;" d="M383.997,335.448h17.655c0.018-18.158-6.215-35.778-17.655-49.885V335.448z" /> </g>
+                </svg>
+            </div>
+            <h3>Dữ liệu đầy đủ</h3>
+            <p>Hơn 1000+ vật phẩm và thông tin game được cập nhật liên tục.</p>
+        </div>
+        <!-- Feature Card 2: Compatibility -->
+        <div class="feature-card">
+            <div class="feature-icon">
+                 <svg height="50px" width="50px" id="Capa_1_comp" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"> <g> <path d="m352 107.188v-22.376c0-2.195-1.24-4.201-3.203-5.183l-12.987-6.494c-1.352-.676-2.393-1.851-2.879-3.283-1.14-3.354-2.493-6.61-4.043-9.752-.67-1.357-.767-2.926-.288-4.362l4.594-13.781c.694-2.082.152-4.378-1.4-5.93l-15.822-15.822c-1.552-1.552-3.848-2.094-5.93-1.4l-13.78 4.594c-1.436.479-3.004.382-4.362-.288-3.141-1.55-6.397-2.903-9.752-4.043-1.431-.486-2.607-1.527-3.283-2.879l-6.494-12.987c-.982-1.962-2.988-3.202-5.183-3.202h-22.376c-2.195 0-4.201 1.24-5.183 3.203l-6.494 12.987c-.676 1.352-1.851 2.393-3.283 2.879-3.354 1.14-6.61 2.493-9.752 4.043-1.357.67-2.926.767-4.362.288l-13.781-4.594c-2.082-.694-4.378-.152-5.93 1.4l-15.822 15.822c-1.552 1.552-2.094 3.848-1.4 5.93l4.594 13.781c.479 1.436.382 3.004-.288 4.362-1.55 3.141-2.903 6.397-4.043 9.752-.486 1.431-1.527 2.607-2.879 3.283l-12.987 6.494c-1.962.981-3.202 2.987-3.202 5.182v22.376c0 2.195 1.24 4.201 3.203 5.183l12.987 6.494c1.352.676 2.393 1.851 2.879 3.283 1.14 3.354 2.493 6.61 4.043 9.752.67 1.357.767 2.926.288 4.362l-4.594 13.78c-.694 2.082-.152 4.378 1.4 5.93l15.822 15.822c1.552 1.552 3.848 2.094 5.93 1.4l13.781-4.594c1.436-.479 3.004-.382 4.362.288 3.141 1.55 6.397 2.903 9.752 4.043 1.431.486 2.607 1.527 3.283 2.879l6.494 12.987c.982 1.963 2.988 3.203 5.183 3.203h22.376c2.195 0 4.202-1.24 5.183-3.203l6.494-12.987c.676-1.352 1.851-2.393 3.283-2.879 3.354-1.14 6.61-2.493 9.752-4.043 1.357-.67 2.926-.767 4.362-.288l13.78 4.594c2.082.694 4.378.152 5.93-1.4l15.822-15.822c1.552-1.552 2.094-3.848 1.4-5.93l-4.594-13.78c-.479-1.436-.382-3.004.288-4.362 1.55-3.141 2.903-6.397 4.043-9.752.486-1.431 1.527-2.607 2.879-3.283l12.987-6.494c1.962-.982 3.202-2.988 3.202-5.183z" fill="#08a9f1" /> <path d="m293.942 73.372c-6.248-6.248-16.379-6.248-22.627 0l-22.627 22.628-11.314-11.314c-6.248-6.248-16.379-6.248-22.627 0s-6.248 16.379 0 22.628l22.592 22.592c.012.012.023.024.035.035 6.248 6.248 16.379 6.248 22.628 0 .012-.012.023-.024.035-.035l33.905-33.906c6.249-6.249 6.249-16.379 0-22.628z" fill="#dff6fd" /> <path d="m454.245 160h-396.49c-14.224 0-25.755 11.531-25.755 25.755v278.245l224 32 224-32v-278.245c0-14.224-11.531-25.755-25.755-25.755z" fill="#b2caec" /> <path d="m317.071 466.929-5.528 5.528c-4.83 4.83-11.381 7.543-18.211 7.543h-74.664c-6.831 0-13.381-2.713-18.211-7.543l-5.528-5.528c-1.875-1.875-4.419-2.929-7.071-2.929h-180.132c-4.267 0-7.726 3.459-7.726 7.726v14.519c0 14.224 11.531 25.755 25.755 25.755h460.491c14.223 0 25.754-11.531 25.754-25.755v-14.519c0-4.267-3.459-7.726-7.726-7.726h-180.132c-2.652 0-5.196 1.054-7.071 2.929z" fill="#d3e1f5" /> <path d="m443 432h-374c-2.761 0-5-2.239-5-5v-230c0-2.761 2.239-5 5-5h374c2.761 0 5 2.239 5 5v230c0 2.761-2.239 5-5 5z" fill="#01c0fa" /> <path d="m406.793 192v142.245c0 42.61-34.542 77.152-77.152 77.152h-265.641v15.603c0 2.761 2.239 5 5 5h374c2.761 0 5-2.239 5-5v-230c0-2.761-2.239-5-5-5z" fill="#08a9f1" /> <path d="m134.245 464h-108.49c-14.224 0-25.755-11.531-25.755-25.754v-188.491c0-14.224 11.531-25.755 25.755-25.755h108.491c14.223 0 25.754 11.531 25.754 25.755v188.491c0 14.223-11.531 25.754-25.755 25.754z" fill="#0573ce" /> <path d="m100.51 256c-2.383 0-4.415 1.645-5.002 3.954-1.76 6.924-8.036 12.046-15.508 12.046s-13.748-5.122-15.508-12.046c-.587-2.309-2.62-3.954-5.002-3.954h-22.339c-2.845 0-5.151 2.306-5.151 5.151v165.698c0 2.845 2.306 5.151 5.151 5.151h85.698c2.845 0 5.151-2.306 5.151-5.151v-165.698c0-2.845-2.306-5.151-5.151-5.151z" fill="#01c0fa" /> <path d="m486.245 352h-236.49c-14.224 0-25.755-11.531-25.755-25.754v-172.491c0-14.224 11.531-25.755 25.755-25.755h236.491c14.223 0 25.754 11.531 25.754 25.755v172.491c0 14.223-11.531 25.754-25.755 25.754z" fill="#0055a3" /> <path d="m486.245 128h-20.604c14.224 0 25.755 11.531 25.755 25.755v172.491c0 14.224-11.531-25.755-25.755 25.755h20.604c14.224-.001 25.755-11.532 25.755-25.755v-172.491c0-14.224-11.531-25.755-25.755-25.755z" fill="#004281" /> <path d="m443 320h-182c-2.761 0-5-2.239-5-5v-150c0-2.761 2.239-5 5-5h182c2.761 0 5 2.239 5 5v150c0 2.761-2.239 5-5 5z" fill="#01c0fa" /> <path d="m344.343 262.814c-1.92 0-3.839-.732-5.304-2.196l-15.313-15.313c-2.929-2.93-2.929-7.678 0-10.607 2.93-2.928 7.678-2.928 10.607 0l10.01 10.011 25.324-25.324c2.931-2.928 7.679-2.929 10.607.001 2.929 2.929 2.929 7.677 0 10.606l-30.628 30.627c-1.464 1.462-3.384 2.195-5.303 2.195z" fill="#dff6fd" /> <path d="m74.667 362.167c-1.989 0-3.897-.79-5.303-2.197l-10.667-10.667c-2.929-2.929-2.929-7.678 0-10.606s7.678-2.928 10.606.001l5.363 5.363 16.03-16.031c2.929-2.928 7.678-2.928 10.606 0 2.929 2.93 2.929 7.678 0 10.607l-21.332 21.334c-1.407 1.406-3.314 2.196-5.303 2.196z" fill="#dff6fd" /> <g> <g> <path d="m478 263.5c-4.143 0-7.5-3.357-7.5-7.5v-32c0-4.143 3.357-7.5 7.5-7.5s7.5 3.357 7.5 7.5v32c0 4.143-3.357 7.5-7.5 7.5z" fill="#004281" /> </g> </g> </g>
+                 </svg>
+            </div>
+            <h3>Tương thích</h3>
+            <p>Sử dụng trên mọi thiết bị: Android, Windows và các trình giả lập phổ biến.</p>
+        </div>
+        <!-- Feature Card 3: Community -->
+        <div class="feature-card">
+            <div class="feature-icon">
+                <svg height="50px" width="50px" version="1.1" id="Layer_1_comm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 509.421 509.421" style="enable-background:new 0 0 509.421 509.421;" xml:space="preserve"> <g> <path style="fill:#9BC9FF;" d="M409.421,251.348V123.073c-35.366,0-64.139,28.772-64.139,64.138S374.055,251.348,409.421,251.348z" /> <path style="fill:#57A4FF;" d="M473.56,187.211c0-35.366-28.772-64.138-64.139-64.138v128.275  C444.788,251.348,473.56,222.576,473.56,187.211z" /> <path style="fill:#9BC9FF;" d="M509.421,366.348c0-55.14-44.859-100-100-100c-28.619,0-55.206,12.071-73.879,32.602  c26.098,21.11,43.814,52.191,47.288,87.398h126.591V366.348z" /> <path style="fill:#9BC9FF;" d="M173.879,298.95c-18.673-20.53-45.26-32.602-73.879-32.602c-55.14,0-100,44.86-100,100v20h126.59  C130.065,351.141,147.781,320.06,173.879,298.95z" /> <path style="fill:#9BC9FF;" d="M100,251.348V123.073c-35.366,0-64.138,28.772-64.138,64.138S64.634,251.348,100,251.348z" /> <path style="fill:#57A4FF;" d="M164.138,187.211c0-35.366-28.772-64.138-64.138-64.138v128.275  C135.366,251.348,164.138,222.576,164.138,187.211z" /> <path style="fill:#003F8A;" d="M335.542,298.95c-22.114-17.888-50.242-28.619-80.832-28.619v148.76h128.75v-20  c0-4.3-0.216-8.55-0.63-12.742C379.356,351.141,361.64,320.06,335.542,298.95z" /> <path style="fill:#003F8A;" d="M334.71,170.331c0-44.11-35.89-80-80-80v160C298.82,250.331,334.71,214.451,334.71,170.331z" /> <path style="fill:#005ECE;" d="M173.879,298.95c-26.098,21.11-43.814,52.191-47.289,87.398c-0.414,4.193-0.63,8.443-0.63,12.742v20  h128.75v-148.76C224.121,270.331,195.993,281.062,173.879,298.95z" /> <path style="fill:#005ECE;" d="M254.71,250.331v-160c-44.11,0-80,35.89-80,80C174.71,214.451,210.6,250.331,254.71,250.331z" /> </g>
+                </svg>
+            </div>
+            <h3>Cộng đồng</h3>
+            <p>Hàng trăm người dùng tin tưởng và đang sử dụng các phiên bản Jinro.</p>
+        </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section class="platforms">
+        <div class="platforms-content">
+            <img src="https://cdn-icons-png.flaticon.com/512/2504/2504927.png" class="logo" alt="Android Logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/2504/2504881.png" class="logo" alt="Windows Logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/MEmu1.png" class="logo" alt="MEmu Play Logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/BlueStacks_Logo2.png" class="logo" alt="BlueStacks Logo">
+            <img src="https://img.icons8.com/nolan/512/nox.png" class="logo" alt="Nox Player Logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Ldplayer-logo.svg/1200px-Ldplayer-logo.svg.png" class="logo" alt="LDPlayer Logo">
+            <img src="https://storage-asset.msi.com/event/2024/Corp/MSI-App-Player/images/MSI_App_Player-icon.png" class="logo" alt="MSI App Player Logo">
+            <img src="https://images.icon-icons.com/3053/PNG/512/netease_mumu_macos_bigsur_icon_189921.png" class="logo" alt="MuMu Player Logo">
+        </div>
+    </section>
+
+    <!-- Install Section -->
+    <section class="install-section" id="install">
+        <div class="container">
+
+            <!-- Tab Navigation -->
+            <div class="tab-navigation">
+                <ul id="installTabs">
+                    <li class="active" data-target="pricing-content-tab">Giá cả</li>
+                    <li data-target="install-content-tab">Cài Đặt</li>
+                    <li data-target="features-content-tab">Chức năng</li>
+                    <li data-target="screenshots-content-tab">Ảnh Chụp</li>
+                </ul>
+            </div>
+
+            <!-- Tab Content Area -->
+            <div class="tab-content-area">
+
+                <!-- Pricing Content Pane -->
+                <div id="pricing-content-tab" class="tab-pane active">
+                    <div class="content-block">
+                        <h2>Gói Dịch Vụ</h2>
+                        <p>Chọn gói phù hợp với nhu cầu sử dụng của bạn.</p>
+                        <div class="pricing-grid">
+                            <!-- Card 1: Free -->
+                            <div class="pricing-card">
+                                <h4>Miễn Phí</h4>
+                                <div class="price">0đ<span>/trọn đời</span></div>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Chạy server offline</li>
+                                    <li><i class="fas fa-check"></i> Tự động cập nhật</li>
+                                    <li><i class="fas fa-times"></i> Chạy server online</li>
+                                    <li><i class="fas fa-times"></i> Quản lý người chơi</li>
+                                    <li><i class="fas fa-times"></i> Chỉnh sửa chỉ số</li>
+                                    <li><i class="fas fa-times"></i> Yêu Cầu Chức Năng</li>
+                                    <li><i class="fas fa-times"></i> Kênh Hỗ Trợ</li>
+                                    <li><i class="fas fa-times"></i> Hỗ trợ windows</li>
+                                </ul>
+                                <button class="btn secondary cta-button" onclick="activateTabByTarget('install-content-tab')">Cài đặt</button>
+                            </div>
+                            <!-- Card 2: Cơ Bản -->
+                            <div class="pricing-card">
+                                <h4>Gói Cơ Bản</h4>
+                                <!-- <span class="sale">Giảm 40%</span> -->
+                                <!-- <span style="text-decoration: line-through;">50.000đ</span> -->
+                                <div class="price">50.000đ<span>/trọn đời</span></div>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Chạy server offline</li>
+                                    <li><i class="fas fa-check"></i> Chạy server online</li>
+                                    <li><i class="fas fa-check"></i> Tự động cập nhật</li>
+                                    <li><i class="fas fa-check"></i> Quản lý người chơi</li>
+                                    <li><i class="fas fa-check"></i> Chỉnh sửa chỉ số</li>
+                                    <li><i class="fas fa-check"></i> Kênh Hỗ Trợ </li>
+                                    <li><i class="fas fa-times"></i> Yêu Cầu Chức Năng</li>
+                                    <li><i class="fas fa-times"></i> Hỗ trợ Windows</li>
+                                </ul>
+                                <button class="btn primary cta-button purchase-trigger"
+                                        data-package-name="Gói Cơ Bản"
+                                        data-package-price="50.000đ/trọn đời">
+                                    Mua gói
+                                </button>
+                            </div>
+
+                            <!-- Card 3: Pro (Recommended) -->
+                            <div class="pricing-card recommended">
+                                <span class="badge">bán chạy</span>
+                                <!-- <span class="sale">Giảm 33.33%</span> -->
+                                <h4>Gói Pro</h4>
+                                <!-- <span style="text-decoration: line-through;">150.000đ</span> -->
+                                <div class="price">150.000đ<span>/trọn đời</span></div>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Chạy server offline</li>
+                                    <li><i class="fas fa-check"></i> Chạy server online</li>
+                                    <li><i class="fas fa-check"></i> Ưu Tiên Cập Nhật Sớm</li>
+                                    <li><i class="fas fa-check"></i> Quản lý người chơi</li>
+                                    <li><i class="fas fa-check"></i> Chỉnh sửa chỉ số</li>
+                                    <li><i class="fas fa-check"></i> Yêu Cầu Chức Năng</li>
+                                    <li><i class="fas fa-check"></i> Kênh Hỗ Trợ</li>
+                                    <li><i class="fas fa-check"></i> Hỗ trợ Windows</li>
+                                </ul>
+                                 <button class="btn primary cta-button purchase-trigger"
+                                         data-package-name="Gói Pro"
+                                         data-package-price="150.000đ/trọn đời">
+                                     Mua gói
+                                 </button>
+                            </div>
+
+                             <!-- Card 4: Dùng Thử (Cơ bản) -->
+                             <div class="pricing-card">
+                                <h4>Gói Dùng Thử (Cơ bản)</h4>
+                                <div class="price">6.000đ<span>/1 giờ</span></div>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Các tính năng của gói cơ bản </li>
+                                </ul>
+                                <button class="btn primary cta-button purchase-trigger"
+                                        data-package-name="Gói Dùng Thử (Cơ bản)"
+                                        data-package-price="6.000đ/1 giờ">
+                                    Mua / gia hạn
+                                </button>
+                            </div>
+
+                            <!-- Card 5: Dùng Thử (Pro) -->
+                             <div class="pricing-card">
+                                <h4>Gói Dùng Thử (Pro)</h4>
+                                <div class="price">15.000đ<span>/1 giờ </span></div>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Chạy server offline</li>
+                                    <li><i class="fas fa-check"></i> Chạy server online</li>
+                                    <li><i class="fas fa-check"></i> Tự động cập nhật</li>
+                                    <li><i class="fas fa-check"></i> Quản lý người chơi</li>
+                                    <li><i class="fas fa-check"></i> Chỉnh sửa chỉ số</li>
+                                    <li><i class="fas fa-check"></i> Hỗ trợ Windows</li>
+                                    <li><i class="fas fa-times"></i> Yêu Cầu Chức Năng</li>
+                                    <li><i class="fas fa-times"></i> Kênh Hỗ Trợ</li>
+                                </ul>
+                                 <button class="btn primary cta-button purchase-trigger"
+                                         data-package-name="Gói Dùng Thử (Pro)"
+                                         data-package-price="15.000đ/1 giờ">
+                                     Mua / gia hạn
+                                 </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Install Content Pane -->
+                <div id="install-content-tab" class="tab-pane">
+                    <div class="content-block">
+                        <h2>Hướng Dẫn Cài Đặt Android</h2>
+                        <p>Làm theo các bước sau để cài đặt Jinro trên thiết bị Android của bạn.</p>
+
+                        <div class="code-container">
+                            <h3>1. Cài đặt Termux</h3>
+                            <p>Tải và cài đặt Termux từ Github (tránh bản Play Store). Chọn <b>universal</b> hỗ trợ tất
+                                cả cấu trúc.</p>
+                            <div class="termux-buttons">
+                                <button class="btn primary small-btn"><a
+                                        href="https://github.com/termux/termux-app/releases/download/v0.118.2/termux-app_v0.118.2+github-debug_universal.apk"
+                                        target="_blank" rel="noopener noreferrer">universal.apk</a></button>
+                                <button class="btn secondary small-btn"><a
+                                        href="https://github.com/termux/termux-app/releases/download/v0.118.2/termux-app_v0.118.2+github-debug_arm64-v8a.apk"
+                                        target="_blank" rel="noopener noreferrer">arm64-v8a</a></button>
+                                <button class="btn secondary small-btn"><a
+                                        href="https://github.com/termux/termux-app/releases/download/v0.118.2/termux-app_v0.118.2+github-debug_armeabi-v7a.apk"
+                                        target="_blank" rel="noopener noreferrer">armeabi-v7a</a></button>
+                                <button class="btn secondary small-btn"><a
+                                        href="https://github.com/termux/termux-app/releases/download/v0.118.2/termux-app_v0.118.2+github-debug_x86_64.apk"
+                                        target="_blank" rel="noopener noreferrer">x86_64</a></button>
+                            </div>
+                        </div>
+
+                        <div class="code-container">
+                            <h3>2. Cài đặt & Phần mềm hỗ trợ</h3>
+                            <div class="termux-buttons" style="padding: 14px 20px;">
+                                <button class="btn secondary small-btn"><a href="#" target="_blank" rel="noopener noreferrer">Manhhdc.apk</a></button>
+                                <button class="btn secondary small-btn"><a href="https://download1336.mediafire.com/iaq6v3fvyu2gEpqsliNu9AVuGx2GZRNLiyesvKQIJfZt1EDiA0eSlCt_LLmShnRK2Gny6EgqHKLa2j9jrBH726T0477DNxOxChuCgGoC6N9IKiZW3IIlnQFE2VYX9c7Yhyxph7aSa4Pff8F2VfnqNkoGv-7c9QYD5j2JpFZogWM/6bvlddcp54mc9nf/KSWeb_v3.988_gocmod.com.apk" target="_blank" rel="noopener noreferrer">Ksweb.apk</a></button>
+                            </div>
+                        </div>
+
+                        <div class="code-container">
+                            <h3>3. Chạy Lệnh Cài Đặt Menu</h3>
+                            <p>Mở Termux, sao chép và dán vào các lệnh sau:</p>
+                            <p><strong>Dành cho Gói Cơ Bản và Pro:</strong></p>
+                            <div class="code-box">
+                                <pre><code id="androidCode">termux-setup-storage
+apt update && apt upgrade -y
+pkg install python python-pip openjdk-17 git -y
+pip install --upgrade pip
+pip install mysql-connector-python gdown gspread
+git clone https://github.com/ki3tngu/jinro</code></pre>
+                                <button class="copy-btn" data-target="androidCode">Sao chép</button>
+                            </div>
+                            <p><strong>Dành cho Gói Miễn Phí:</strong></p>
+                            <div class="code-box">
+                                <pre><code id="androidFreeCode">termux-setup-storage
+apt update && apt upgrade -y
+pkg install python python-pip openjdk-17 git -y
+pip install --upgrade pip
+pip install gdown
+git clone https://github.com/ki3tngu/jinroFree</code></pre>
+                                <button class="copy-btn" data-target="androidFreeCode">Sao chép</button>
+                            </div>
+                        </div>
+                        <div class="code-container">
+                            <h3>4. Tải Dữ Liệu & Chạy Menu</h3>
+                            <p>Sau khi cài đặt xong, di chuyển vào thư mục và chạy menu:</p>
+                            <p><strong>Gói Pro:</strong></p>
+                            <div class="code-box">
+                                <pre><code>cd jinro
+python main.py</code></pre>
+                            </div>
+                            <p><strong>Gói Miễn Phí:</strong></p>
+                            <div class="code-box">
+                                <pre><code>cd jinroFree
+python main.py</code></pre>
+                            </div>
+                            <p>Trong menu hiện ra, chọn tùy chọn số <strong>5 hoặc 2 (Free)</strong> để tải dữ liệu game cần thiết.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Features Content Pane -->
+                <div id="features-content-tab" class="tab-pane">
+                    <div class="content-block">
+                        <h2>Phiên bản 1.0.0</h2>
+                        <p><em>Cập nhật: 30/4/2025</em></p>
+                        <div class="features-list">
+                            <ul>
+                                <li>Chạy server online hoặc offline.</li>
+                                <li>Quản lý người chơi.</li>
+                                <li>Chỉnh sửa chỉ số.</li>
+                                <li>Tự động kiểm tra cập nhật.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screenshots Content Pane -->
+                <div id="screenshots-content-tab" class="tab-pane">
+                    <div class="content-block">
+                        <h2>Ảnh Chụp Màn Hình</h2>
+                        <p>Giao diện menu Jinro chạy trên Termux và ảnh trong game.</p>
+                        <div class="screenshots-gallery">
+                            <a href="/screenshoot.png" target="_blank" rel="noopener noreferrer">
+                                <img src="screenshoot.png" alt="Screenshot menu Jinro trên Termux" width="100%">
+                            </a>
+                            <p class="caption">(Nhấn vào ảnh để xem kích thước đầy đủ)</p>
+                        </div>
+                         <!-- <hr>
+                         <p>Giao diện Windows (dự kiến).</p>
+                         <div class="screenshots-gallery">
+                             <div class="video-placeholder">
+                                <i class="fas fa-image"></i>
+                                <span>Ảnh chụp màn hình giao diện Windows sẽ sớm được cập nhật.</span>
+                            </div>
+                         </div> -->
+                    </div>
+                </div>
+
+            </div> <!-- End tab-content-area -->
+
+        </div> <!-- End container -->
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section" id="Database">
+        <div class="container">
+            <h2>Tra Cứu Dữ Liệu</h2>
+            <div class="controls">
+                <select id="tableSelector" aria-label="Chọn loại dữ liệu">
+                    <option value="item_template">Vật Phẩm</option>
+                    <option value="intrinsic">Nội Tại</option>
+                    <option value="task_main_template">Nhiệm Vụ</option>
+                    <option value="map_template">Bản Đồ</option>
+                    <!-- <option value="skill">Kỹ Năng</option> --> <!-- Add data source later if needed -->
+                </select>
+                <input type="text" id="searchInput" placeholder="Nhập tên cần tìm..." aria-label="Ô tìm kiếm">
+            </div>
+            <div class="table-container" role="region" aria-labelledby="tableLabel">
+                <span id="tableLabel" class="sr-only">Bảng kết quả tìm kiếm</span>
+                <table id="resultsTable">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Tên</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsBody">
+                        <!-- Results populated by JS -->
+                        <tr>
+                            <td colspan="2" class="info-cell">Đang tải dữ liệu...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <div class="discountCountdown" style="display: none;">00 Ngày 00 giờ 00 phút 00 giây</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Jinro by JINN1368. Inspired by Ngọc Rồng Online.</p>
+             <p class="links">
+                <a href="#">Ngọc Rồng Online</a> |
+                <a href="#">Avatar Musik</a> |
+                <a href="#">Ninja School</a> |
+                <a href="#">Hải Tặc Tí Hon</a> |
+                <a href="#">Knight Age</a> |
+                <a href="#">Avatar 2</a> |
+                <a href="#">MobiArmy 2</a> |
+                <a href="#">Avatar TP Diệu Kỳ</a>
+                <!-- Add more links or remove as needed -->
+            </p>
+        </div>
+    </footer>
+
+    <!-- Purchase Modal -->
+    <div id="purchaseModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button" onclick="hidePurchaseModal()">&times;</span>
+            <div id="modalFormContent">
+                <h2>Thông Tin Thanh Toán</h2>
+
+                <!-- Section for Package Info -->
+                <div class="selected-package-info">
+                    <p><strong>Gói đang chọn:</strong> <span id="modalPackageName"></span></p>
+                    <p><strong>Giá:</strong> <span id="modalPackagePrice"></span></p>
+                </div>
+                <!-- End Section -->
+
+                <div class="payment-info">
+                    <p><strong>MB BANK:</strong> <code class="highlight">0853035354</code> 
+
+                    <p><strong>Momo:</strong> <code class="highlight">0853035354</code> <!-- Optional: Add QR Code image here if you have one -->
+                     <!-- <img src="path/to/your/momo_qr.png" alt="Momo QR Code" style="max-width: 150px; display: block; margin: 10px auto;"> -->
+                </div>
+                <hr>
+                <form id="purchaseForm">
+                    <p>Nội dung chuyển khoản: TÊN CHỦ TÀI KHOẢN, EMAIL, TÊN GÓI.</p>
+                    <p>ví dụ: NGUYEN ANH KIET, JINRO@GMAIL.COM, GOI PRO</p>
+                    <button type="submit" class="btn primary" style="width: 100%;">Hoàn Thành</button>
+                </form>
+            </div>
+            <div id="successMessage" style="display: none; text-align: center; padding: 20px;">
+                <i class="fas fa-check-circle" style="color: #4caf50; font-size: 3rem; margin-bottom: 15px;"></i>
+                <p>Cảm ơn bạn đã đặt hàng. Yêu cầu của bạn sẽ được xử lý trong vòng 24 giờ.</p>
+                <p>Vui lòng kiểm tra email (bao gồm cả thư mục spam) để nhận thông tin.</p>
+                <button class="btn secondary" style="margin-top: 20px;" onclick="hidePurchaseModal()">Đóng</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Purchase Modal -->
+
+    <script src="script.js"></script>
+    <script>
+        // Countdown Timer Script
+        const countdownElement = document.querySelector('.discountCountdown');
+
+        if (countdownElement) {
+            // Set End Date/Time (Month is 0-indexed: May = 4)
+            const targetDate = new Date(2025, 4, 2, 0, 0, 0); // Midnight between May 1st and May 2nd, 2025
+            const targetTime = targetDate.getTime();
+
+            function formatNumber(num) {
+                return String(num).padStart(2, '0');
+            }
+
+            function updateCountdown() {
+                const currentTime = new Date().getTime();
+                const difference = targetTime - currentTime;
+
+                if (difference <= 0) {
+                    clearInterval(intervalId);
+                    countdownElement.textContent = "Ưu đãi đã kết thúc!";
+                    countdownElement.style.backgroundColor = '#555'; // Optional: Change background when ended
+                    return;
+                }
+
+                const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+                countdownElement.textContent = `${formatNumber(days)} Ngày ${formatNumber(hours)} giờ ${formatNumber(minutes)} phút ${formatNumber(seconds)} giây`;
+            }
+
+            const intervalId = setInterval(updateCountdown, 1000);
+            updateCountdown(); // Initial call
+        } else {
+             console.error("Countdown element not found.");
+        }
+    </script>
+</body>
+
+</html>
