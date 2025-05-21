@@ -84,7 +84,6 @@
                 <ul id="installTabs">
                     <li class="active" data-target="pricing-content-tab">Giá cả</li>
                     <li data-target="install-content-tab">Cài Đặt</li>
-                    <li data-target="features-content-tab">Chức năng</li>
                     <li data-target="screenshots-content-tab">Ảnh Chụp</li>
                 </ul>
             </div>
@@ -99,39 +98,31 @@
                         <p>Chọn gói phù hợp với nhu cầu sử dụng của bạn.</p>
                         <div class="pricing-grid">
                             <!-- Card 1: Free -->
-                            <div class="pricing-card">
+                            <!-- <div class="pricing-card">
                                 <h4>Miễn Phí</h4>
                                 <div class="price">0đ<span>/trọn đời</span></div>
                                 <ul>
-                                    <li><i class="fas fa-check"></i> Chạy server offline</li>
                                     <li><i class="fas fa-check"></i> Tự động cập nhật</li>
+                                    <li><i class="fas fa-check"></i> Chạy server offline</li>
                                     <li><i class="fas fa-times"></i> Chạy server online</li>
-                                    <li><i class="fas fa-times"></i> Quản lý người chơi</li>
                                     <li><i class="fas fa-times"></i> Chỉnh sửa chỉ số</li>
-                                    <li><i class="fas fa-times"></i> Yêu Cầu Chức Năng</li>
-                                    <li><i class="fas fa-times"></i> Kênh Hỗ Trợ</li>
-                                    <li><i class="fas fa-times"></i> Hỗ trợ windows</li>
                                 </ul>
                                 <button class="btn secondary cta-button" onclick="activateTabByTarget('install-content-tab')">Cài đặt</button>
-                            </div>
+                            </div> -->
                             <!-- Card 2: Cơ Bản -->
                             <div class="pricing-card">
-                                <h4>Gói Cơ Bản</h4>
+                                <h4>Android Termux</h4>
                                 <!-- <span class="sale">Giảm 40%</span> -->
                                 <!-- <span style="text-decoration: line-through;">50.000đ</span> -->
                                 <div class="price">50.000đ<span>/trọn đời</span></div>
                                 <ul>
+                                    <li><i class="fas fa-check"></i> Tự động cập nhật</li>
                                     <li><i class="fas fa-check"></i> Chạy server offline</li>
                                     <li><i class="fas fa-check"></i> Chạy server online</li>
-                                    <li><i class="fas fa-check"></i> Tự động cập nhật</li>
-                                    <li><i class="fas fa-check"></i> Quản lý người chơi</li>
                                     <li><i class="fas fa-check"></i> Chỉnh sửa chỉ số</li>
-                                    <li><i class="fas fa-check"></i> Kênh Hỗ Trợ </li>
-                                    <li><i class="fas fa-times"></i> Yêu Cầu Chức Năng</li>
-                                    <li><i class="fas fa-times"></i> Hỗ trợ Windows</li>
                                 </ul>
                                 <button class="btn primary cta-button purchase-trigger"
-                                        data-package-name="Gói Cơ Bản"
+                                        data-package-name="Gói Android Termux"
                                         data-package-price="50.000đ/trọn đời">
                                     Mua gói
                                 </button>
@@ -139,60 +130,39 @@
 
                             <!-- Card 3: Pro (Recommended) -->
                             <div class="pricing-card recommended">
-                                <span class="badge">bán chạy</span>
+                                <span class="badge">Sắp có</span>
                                 <!-- <span class="sale">Giảm 33.33%</span> -->
-                                <h4>Gói Pro</h4>
+                                <h4>Android App</h4>
                                 <!-- <span style="text-decoration: line-through;">150.000đ</span> -->
-                                <div class="price">150.000đ<span>/trọn đời</span></div>
+                                <div class="price">75.000đ<span>/trọn đời</span></div>
                                 <ul>
-                                    <li><i class="fas fa-check"></i> Chạy server offline</li>
-                                    <li><i class="fas fa-check"></i> Chạy server online</li>
-                                    <li><i class="fas fa-check"></i> Ưu Tiên Cập Nhật Sớm</li>
-                                    <li><i class="fas fa-check"></i> Quản lý người chơi</li>
-                                    <li><i class="fas fa-check"></i> Chỉnh sửa chỉ số</li>
-                                    <li><i class="fas fa-check"></i> Yêu Cầu Chức Năng</li>
-                                    <li><i class="fas fa-check"></i> Kênh Hỗ Trợ</li>
-                                    <li><i class="fas fa-check"></i> Hỗ trợ Windows</li>
+                                    <li><i class="fas fa-check"></i> Tất cả chức năng gói Android Termux</li>
+                                    <li><i class="fas fa-check"></i> Tự động cập nhật</li>
+                                    <li><i class="fas fa-check"></i> Giao diện ứng dụng mobile</li>
                                 </ul>
                                  <button class="btn primary cta-button purchase-trigger"
-                                         data-package-name="Gói Pro"
-                                         data-package-price="150.000đ/trọn đời">
+                                         data-package-name="Gói Android App"
+                                         data-package-price="75.000đ/trọn đời">
                                      Mua gói
                                  </button>
                             </div>
 
-                             <!-- Card 4: Dùng Thử (Cơ bản) -->
-                             <div class="pricing-card">
-                                <h4>Gói Dùng Thử (Cơ bản)</h4>
-                                <div class="price">6.000đ<span>/1 giờ</span></div>
+                            <div class="pricing-card recommended">
+                                <span class="badge">Sắp có</span>
+                                <!-- <span class="sale">Giảm 33.33%</span> -->
+                                <h4>Windows App</h4>
+                                <!-- <span style="text-decoration: line-through;">150.000đ</span> -->
+                                <div class="price">100.000đ<span>/trọn đời</span></div>
                                 <ul>
-                                    <li><i class="fas fa-check"></i> Các tính năng của gói cơ bản </li>
-                                </ul>
-                                <button class="btn primary cta-button purchase-trigger"
-                                        data-package-name="Gói Dùng Thử (Cơ bản)"
-                                        data-package-price="6.000đ/1 giờ">
-                                    Mua / gia hạn
-                                </button>
-                            </div>
-
-                            <!-- Card 5: Dùng Thử (Pro) -->
-                             <div class="pricing-card">
-                                <h4>Gói Dùng Thử (Pro)</h4>
-                                <div class="price">15.000đ<span>/1 giờ </span></div>
-                                <ul>
-                                    <li><i class="fas fa-check"></i> Chạy server offline</li>
-                                    <li><i class="fas fa-check"></i> Chạy server online</li>
+                                    <li><i class="fas fa-check"></i> Tất cả chức năng</li>
                                     <li><i class="fas fa-check"></i> Tự động cập nhật</li>
-                                    <li><i class="fas fa-check"></i> Quản lý người chơi</li>
-                                    <li><i class="fas fa-check"></i> Chỉnh sửa chỉ số</li>
+                                    <li><i class="fas fa-check"></i> Sử dụng sớm các chức năng mới</li>
                                     <li><i class="fas fa-check"></i> Hỗ trợ Windows</li>
-                                    <li><i class="fas fa-times"></i> Yêu Cầu Chức Năng</li>
-                                    <li><i class="fas fa-times"></i> Kênh Hỗ Trợ</li>
                                 </ul>
                                  <button class="btn primary cta-button purchase-trigger"
-                                         data-package-name="Gói Dùng Thử (Pro)"
-                                         data-package-price="15.000đ/1 giờ">
-                                     Mua / gia hạn
+                                         data-package-name="Gói Windows App"
+                                         data-package-price="100.000đ/trọn đời">
+                                     Mua gói
                                  </button>
                             </div>
                         </div>
@@ -226,9 +196,10 @@
                         </div>
 
                         <div class="code-container">
-                            <h3>2. Cài đặt & Phần mềm hỗ trợ</h3>
+                            <h3>2. Cài đặt phần mềm đi kèm</h3>
                             <div class="termux-buttons" style="padding: 14px 20px;">
-                                <button class="btn secondary small-btn"><a href="#" target="_blank" rel="noopener noreferrer">Manhhdc.apk</a></button>
+                                <button class="btn secondary small-btn"><a href="https://github.com/JINN1368/NgocRongTermux/releases/download/APK/JINN_MANHHDC.apk" target="_blank" rel="noopener noreferrer">Manhhdc.apk</a></button>
+                                <button class="btn secondary small-btn"><a href="https://drive.google.com/file/d/1xRpMMcBQuHWWcUL_hKfGYajVGuHilZfC/view" target="_blank" rel="noopener noreferrer">Jinro.sql</a></button>
                                 <button class="btn secondary small-btn"><a href="https://download1336.mediafire.com/iaq6v3fvyu2gEpqsliNu9AVuGx2GZRNLiyesvKQIJfZt1EDiA0eSlCt_LLmShnRK2Gny6EgqHKLa2j9jrBH726T0477DNxOxChuCgGoC6N9IKiZW3IIlnQFE2VYX9c7Yhyxph7aSa4Pff8F2VfnqNkoGv-7c9QYD5j2JpFZogWM/6bvlddcp54mc9nf/KSWeb_v3.988_gocmod.com.apk" target="_blank" rel="noopener noreferrer">Ksweb.apk</a></button>
                             </div>
                         </div>
@@ -236,41 +207,34 @@
                         <div class="code-container">
                             <h3>3. Chạy Lệnh Cài Đặt Menu</h3>
                             <p>Mở Termux, sao chép và dán vào các lệnh sau:</p>
-                            <p><strong>Dành cho Gói Cơ Bản và Pro:</strong></p>
                             <div class="code-box">
                                 <pre><code id="androidCode">termux-setup-storage
 apt update && apt upgrade -y
-pkg install python python-pip openjdk-17 git -y
-pip install --upgrade pip
-pip install mysql-connector-python gdown gspread
+pkg i -y python python-pip openjdk-17 git
+pip install mysql-connector-python gdown gspread google-auth
 git clone https://github.com/ki3tngu/jinro</code></pre>
                                 <button class="copy-btn" data-target="androidCode">Sao chép</button>
-                            </div>
-                            <p><strong>Dành cho Gói Miễn Phí:</strong></p>
-                            <div class="code-box">
-                                <pre><code id="androidFreeCode">termux-setup-storage
-apt update && apt upgrade -y
-pkg install python python-pip openjdk-17 git -y
-pip install --upgrade pip
-pip install gdown
-git clone https://github.com/ki3tngu/jinroFree</code></pre>
-                                <button class="copy-btn" data-target="androidFreeCode">Sao chép</button>
                             </div>
                         </div>
                         <div class="code-container">
                             <h3>4. Tải Dữ Liệu & Chạy Menu</h3>
                             <p>Sau khi cài đặt xong, di chuyển vào thư mục và chạy menu:</p>
-                            <p><strong>Gói Pro:</strong></p>
                             <div class="code-box">
                                 <pre><code>cd jinro
 python main.py</code></pre>
                             </div>
-                            <p><strong>Gói Miễn Phí:</strong></p>
-                            <div class="code-box">
-                                <pre><code>cd jinroFree
-python main.py</code></pre>
-                            </div>
                             <p>Trong menu hiện ra, chọn tùy chọn số <strong>5 hoặc 2 (Free)</strong> để tải dữ liệu game cần thiết.</p>
+                        </div>
+
+                         <div class="code-container">
+                            <h3>5. Sửa lỗi </h3>
+                            <p>CANNOT LINK EXECUTABLE "sh": "/data/data/com.termux/files/usr/lib/libtermux-exec-ld-preload.so" is 32-bit instead of 64-bit</p>
+                            <div class="code-box">
+                                <pre><code id="fix">termux-setup-storage
+unset LD_PRELOAD
+apt reinstall /sdcard/termux-exec_2_1.0-1_aarch64.deb -y</code></pre>
+                            </div>
+                             <button class="copy-btn" data-target="fix">Sao chép</button>
                         </div>
                     </div>
                 </div>
@@ -279,7 +243,7 @@ python main.py</code></pre>
                 <div id="features-content-tab" class="tab-pane">
                     <div class="content-block">
                         <h2>Phiên bản 1.0.0</h2>
-                        <p><em>Cập nhật: 30/4/2025</em></p>
+                        <p><em>Cập nhật: 21/5/2025</em></p>
                         <div class="features-list">
                             <ul>
                                 <li>Chạy server online hoặc offline.</li>
@@ -297,19 +261,11 @@ python main.py</code></pre>
                         <h2>Ảnh Chụp Màn Hình</h2>
                         <p>Giao diện menu Jinro chạy trên Termux và ảnh trong game.</p>
                         <div class="screenshots-gallery">
-                            <a href="/screenshoot.png" target="_blank" rel="noopener noreferrer">
+                            <a href="https://raw.githubusercontent.com/ki3tngu/ki3tngu/refs/heads/main/screenshoot.png" target="_blank" rel="noopener noreferrer">
                                 <img src="screenshoot.png" alt="Screenshot menu Jinro trên Termux" width="100%">
                             </a>
                             <p class="caption">(Nhấn vào ảnh để xem kích thước đầy đủ)</p>
                         </div>
-                         <!-- <hr>
-                         <p>Giao diện Windows (dự kiến).</p>
-                         <div class="screenshots-gallery">
-                             <div class="video-placeholder">
-                                <i class="fas fa-image"></i>
-                                <span>Ảnh chụp màn hình giao diện Windows sẽ sớm được cập nhật.</span>
-                            </div>
-                         </div> -->
                     </div>
                 </div>
 
@@ -388,15 +344,13 @@ python main.py</code></pre>
                 <!-- End Section -->
 
                 <div class="payment-info">
-                    <p><strong>MB BANK:</strong> <code class="highlight">0853035354</code> 
-
-                    <p><strong>Momo:</strong> <code class="highlight">0853035354</code> <!-- Optional: Add QR Code image here if you have one -->
-                     <!-- <img src="path/to/your/momo_qr.png" alt="Momo QR Code" style="max-width: 150px; display: block; margin: 10px auto;"> -->
+                     <img src="https://raw.githubusercontent.com/ki3tngu/ki3tngu/refs/heads/main/qr.png" alt="Momo QR Code" style="max-width: 150px; display: block; margin: 10px auto;
+                     padding: 10px; background: #fff; border-radius: 16px;">
                 </div>
                 <hr>
                 <form id="purchaseForm">
                     <p>Nội dung chuyển khoản: TÊN CHỦ TÀI KHOẢN, EMAIL, TÊN GÓI.</p>
-                    <p>ví dụ: NGUYEN ANH KIET, JINRO@GMAIL.COM, GOI PRO</p>
+                    <p>ví dụ: NGUYEN VAN A, JINRO@GMAIL.COM, Android Termux</p>
                     <button type="submit" class="btn primary" style="width: 100%;">Hoàn Thành</button>
                 </form>
             </div>
@@ -404,7 +358,8 @@ python main.py</code></pre>
                 <i class="fas fa-check-circle" style="color: #4caf50; font-size: 3rem; margin-bottom: 15px;"></i>
                 <p>Cảm ơn bạn đã đặt hàng. Yêu cầu của bạn sẽ được xử lý trong vòng 24 giờ.</p>
                 <p>Vui lòng kiểm tra email (bao gồm cả thư mục spam) để nhận thông tin.</p>
-                <button class="btn secondary" style="margin-top: 20px;" onclick="hidePurchaseModal()">Đóng</button>
+                <p style="color: red;">Nếu đơn hàng của bạn không được xử lý trong 24h hãy gửi tin nhắn về <a href="https://zalo.me/0853035354" target="_blank">[Zalo]</a></p>
+                <button class="btn secondary" style="margin-top: 20px;" onclick="activateTabByTarget('install-content-tab')">Cài Đặt Jinro</button>
             </div>
         </div>
     </div>
